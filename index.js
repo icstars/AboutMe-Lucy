@@ -152,17 +152,17 @@
 //   alert("No account found!");
 // }
 
-let randomNumber = Math.floor(Math.random() * 4);
-console.log(randomNumber);
+// let randomNumber = Math.floor(Math.random() * 4);
+// console.log(randomNumber);
 
-let arr = ["liv", "kamar", "derrick", "jimmy"];
-console.log(arr[randomNumber]);
+// let arr = ["liv", "kamar", "derrick", "jimmy"];
+// console.log(arr[randomNumber]);
 
-if (arr[randomNumber] === "liv") {
-  console.log("Hello world");
-} else if (arr[randomNumber] === "kamar") {
-  console.log("tech youre wrong");
-}
+// if (arr[randomNumber] === "liv") {
+//   console.log("Hello world");
+// } else if (arr[randomNumber] === "kamar") {
+//   console.log("tech youre wrong");
+// }
 
 let randomNumber1 = Math.ceil(Math.random() * 10);
 console.log(randomNumber1);

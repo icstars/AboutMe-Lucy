@@ -246,15 +246,104 @@
 // write a for loop that logs: "Hello My name is <name> and I am the <role>
 // You must geta log for ever team member
 
-let team4 = prompt("Enter your teams names:");
-let roles4 = prompt("Enter your teams roles");
-console.log(team4);
-let team4Split = team4.split(",");
-let roles4Split = roles4.split(",");
-console.log(team4Split);
-console.log(roles4Split);
-for (i = 0; i < team4Split.length; i++) {
-  console.log(
-    `Hello my name is ${team4Split[i]} and I am the ${roles4Split[i]}`
-  );
+// let team4 = prompt("Enter your teams names:");
+// let roles4 = prompt("Enter your teams roles");
+// console.log(team4);
+// let team4Split = team4.split(",");
+// let roles4Split = roles4.split(",");
+// console.log(team4Split);
+// console.log(roles4Split);
+// for (i = 0; i < team4Split.length; i++) {
+//   console.log(
+//     `Hello my name is ${team4Split[i]} and I am the ${roles4Split[i]}`
+//   );
+// }
+
+/// for loop review
+// initialier
+// condition
+// iterator
+
+// // const arr = [1,2,3]
+
+// // console.log(arr[2]) //3
+
+// // for (let initializer = 0; initialier < arr.length; initializer++) {
+// // console.log('hello world')
+// }
+
+// function**
+
+//ANCHOR - FUNCTIONS
+
+// pass a array through a functions
+// function thisISTHEFunctionName(name) {
+//     return name
+//     // console.log(name) replace it to return name
+// console.log(name)
+// }
+// // TYPE THE FUNCTION NAME FOLLOWED BY PARENTHESES
+// thisISTHEFunctionNAME ('collin') // IN THE PARENTHESES IN THE ARGUMENT
+
+// // RETURN STAEMENT
+
+// function interateThroughArray(arr) {
+//     for (let initializer = 0; initializer < arr.length; initializer++) {
+//         console.log(arr[initializer])
+// }
+// }
+// interateThroughArray(array3)
+
+// //(arr)= place holder
+
+// function sum(num1, num2){
+//     console.log(num1 + num2)
+// }
+// sum(1,3)
+
+// function helloWorld() {
+
+// }
+// helloWorld()
+
+// // Example
+// function pho(ingredient1, ingredient2){
+//     console.log(ingredient1 / ingredient2)
+// }
+// const function1 = function(){
+
+// }
+
+// // Arrow Function
+// const function2 = () => {
+
+// }
+
+// let array10 = [1,2,3,4,5]
+// const function21 = function(arr){
+//      for (let initializer = 0; initializer < arr.length; initializer++){
+//         console.log(arr[initializer])
+//      }
+// }
+// function21(array10)
+
+// function blockScope() {
+//     let x = 0 // You cant access in Global Scope
+// }
+// console.log(x)
+
+// Challenge
+//
+///CHALLENGE
+//let team = ["Lucycan", "Collin", "Mark", "Cortez"]; ///this array needs to be in block scope not global scope
+///create a function that passes another name as an argument to the function parameter
+/// the function adds the name that you passed to the array
+/// return the array
+/// expected output: ["Lucycan", "Collin", "Mark", "Cortez", "Blanca"]
+
+function blockScope(name5) {
+  let team5 = ["Lucycan", "Collin", "Mark", "Cortez"];
+  team5.push(name5);
+  console.log(team5);
 }
+blockScope("Blanca");
